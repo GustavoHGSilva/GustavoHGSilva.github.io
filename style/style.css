@@ -1,0 +1,43 @@
+@import "./header.css";
+@import "./conteudo.css";
+@import "./conteudo2.css";
+@import "./conteudo3.css";
+@import "./footer.css";
+
+body {
+  margin: 0px;
+  font-family: "Fira sans", Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 4.5rem;
+  margin: 0px;
+}
+h3,
+p,
+h2 {
+  margin: 0px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h5 {
+  margin-top: 0px;
+  color: gainsboro;
+}
+h4 {
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}

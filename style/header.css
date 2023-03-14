@@ -1,0 +1,36 @@
+#cabecalho {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 36px 74px;
+}
+.lista1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  /* font-weight: bold; */
+}
+.lista1 li a {
+  padding: 10px 30px;
+  font-size: 1.125rem;
+  display: block;
+}
+@media (max-width: 800px) {
+  #cabecalho {
+    flex-direction: column;
+    justify-items: center;
+    gap: 20px;
+  }
+  #cabecalho img {
+    width: 180px;
+    margin: 0 auto;
+  }
+  .lista1 {
+    justify-content: center;
+  }
+  .lista1 li {
+    background: gainsboro;
+  }
+}
